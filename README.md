@@ -7,7 +7,7 @@
 6.	Commit file to main
 7.	Quickly navigate back to your repository and click the Actions tab at the top
 8.	Here you can see your workflow running! Click it to see what it’s doing (it should be setting up the job or linting).
-9.	Now we can test if the linter is working. Add a new python file (main.py) to main and copy paste the following code: 
+9.	Now we can test if the linter is working. Add a new python file (main.py) to main and copy paste the following code:
 ```Python
 def hello():
     print("hi")
@@ -22,5 +22,3 @@ print(hello())
 12.	Fix the errors and commit your python file again. The lint code base job should succeed.
 13.	Congratulations! You implemented continuous integration using GitHub Actions!
 14.	From here you could deploy a continuous deployment workflow that automatically deploys your code to a server, docker image, or something else. Thanks for participating!
-
-
