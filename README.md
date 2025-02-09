@@ -17,7 +17,7 @@ def bye():
 
 print(hello())
 ```
-	Code can be found at https://github.com/antr0n/CI_CD_Demo
+ Code can be found at https://github.com/antr0n/CI_CD_Demo
 10.	Commit the python file to main and then quickly navigate back to the actions tab. Click the latest workflow run at the top of the list then click the lint codebase job and watch the automation in action!
 11.	The linter should fail. To check the errors scroll down to the Run Super-Linter section. The error should be around lines 169-184.
 12.	Fix the errors and commit your python file again. The lint code base job should succeed.
