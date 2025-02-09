@@ -1,6 +1,6 @@
 # CI/CD Tutorial
 
-```
+```Python
 def hello():
     print("hi")
 
